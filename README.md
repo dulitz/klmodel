@@ -11,6 +11,7 @@ there are no infections at the beginning of the time period.
 
 To set it up:
 
+<pre>
 sudo apt-get install python3-venv
 python3 -m venv ./klmodel
 cd klmodel/
@@ -20,3 +21,4 @@ pip install pandas
 # now bring model.py from this repository into the current directory
 python3 model.py
 # your browser should show plots of the cumulative histograms
+</pre>
